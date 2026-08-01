@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[22016,["/press-here/_next/static/chunks/01xlw8hd842-c.js","/press-here/_next/static/chunks/0d3shmwh5_nmn.js","/press-here/_next/static/chunks/0ka051yepewro.js"],""]
+3:I[97367,["/press-here/_next/static/chunks/01xlw8hd842-c.js","/press-here/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"style":{"padding":"48px 24px","textAlign":"center"},"children":[["$","h1",null,{"style":{"fontSize":28,"marginBottom":12},"children":"没有找到这一页"}],["$","p",null,{"style":{"marginBottom":24},"children":"自定义指南保存在创建它的那台浏览器里，换设备打开会看不到。"}],["$","$L2",null,{"href":"/","children":"回到首页"}]]}],[["$","script","script-0",{"src":"/press-here/_next/static/chunks/0ka051yepewro.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"jBwerst0t7T5dNnQTRIa1"}
+5:null
