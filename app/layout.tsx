@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(ORIGIN),
   title: { default: "按这里 / PRESS HERE", template: "%s · 按这里" },
   description,
-  icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
+  icons: { icon: `${ORIGIN}/favicon.svg`, shortcut: `${ORIGIN}/favicon.svg` },
   openGraph: {
     title: "按这里 / PRESS HERE",
     description,
