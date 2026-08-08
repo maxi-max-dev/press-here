@@ -135,9 +135,10 @@ describe("编辑器黄金路径", () => {
     await user.click(screen.getByRole("button", { name: /我的设备/ }));
     expect(screen.getByText("尚未自动解析 · 手动标点")).toBeTruthy();
     expect(screen.getByText("没有自动识别")).toBeTruthy();
+    expect(screen.getByText(/跨设备扫码不会携带这份自定义数据/)).toBeTruthy();
     expect(screen.getByText("上传图片并建立至少一个有效步骤后生成二维码")).toBeTruthy();
 
-    await user.click(screen.getByRole("button", { name: /生成并打开指南/ }));
+    await user.click(screen.getByRole("button", { name: /在本机打开指南/ }));
     const alert = screen.getByRole("alert");
     expect(alert.textContent).toContain("请先上传设备图片。");
     expect(alert.textContent).toContain("至少需要一个操作步骤。");

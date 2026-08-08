@@ -24,9 +24,7 @@ describe("本机反馈修正闭环", () => {
     editor.unmount();
 
     render(<GuidePlayer projectId="coffee" />);
-    expect(
-      await screen.findByRole("heading", { name: "按一下蓝色电源键，看到常亮后再继续。" }),
-    ).toBeTruthy();
+    expect(await screen.findByRole("heading", { name: "按一下蓝色电源键，看到常亮后再继续。" })).toBeTruthy();
     expect(screen.getByText("这一步已标记解决。")).toBeTruthy();
     expect(screen.getByRole("button", { name: "已解决" }).getAttribute("aria-pressed")).toBe("true");
   });

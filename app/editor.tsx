@@ -856,7 +856,10 @@ export function Editor() {
               <h2>不会操作{current.name}？扫码跟着做</h2>
               <p>
                 {current.steps.length}
-                个步骤，一步一屏。二维码编码真实本地路由；未宣称公网分享。
+                个步骤，一步一屏。
+                {current.kind === "custom"
+                  ? "仅本机演示；跨设备扫码不会携带这份自定义数据。"
+                  : "内置样例路由可在其他设备打开；反馈仍只保存在当前浏览器。"}
               </p>
               <code>{guidePath(current.id)}</code>
             </div>
@@ -876,7 +879,7 @@ export function Editor() {
             )}
 
             <button className="primary-button" onClick={openGuide}>
-              生成并打开指南 <span>→</span>
+              {current.kind === "custom" ? "在本机打开指南" : "生成并打开指南"} <span>→</span>
             </button>
           </section>
         </aside>

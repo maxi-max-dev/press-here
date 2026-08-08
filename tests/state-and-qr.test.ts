@@ -221,6 +221,17 @@ describe("工作区状态与二维码契约", () => {
     const png = PNG.sync.read(qrBuffer);
     const decoded = jsQR(Uint8ClampedArray.from(png.data), png.width, png.height);
     expect(decoded?.data).toBe(url);
+
+    expect(guidePath("coffee", "/press-here/")).toBe(
+      "/press-here/guide/coffee",
+    );
+    expect(
+      guideUrl(
+        "https://maxi-max-dev.github.io",
+        "projector",
+        "/press-here",
+      ),
+    ).toBe("https://maxi-max-dev.github.io/press-here/guide/projector");
   });
 
   it("图片坐标与舞台坐标可往返，并拒绝点击 letterbox 留白", () => {

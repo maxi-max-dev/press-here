@@ -12,12 +12,19 @@ interface GuidePageProps {
 }
 
 export function generateStaticParams() {
-  return [{ id: "coffee-machine" }, { id: "projector" }];
+  return [
+    { id: "coffee" },
+    { id: "projector" },
+    { id: "custom" },
+    { id: "coffee-machine" },
+  ];
 }
 
-export const dynamicParams = false;
+export function canonicalGuideId(id: string): string {
+  return id === "coffee-machine" ? "coffee" : id;
+}
 
 export default async function GuidePage({ params }: GuidePageProps) {
   const { id } = await params;
-  return <GuidePlayer projectId={id} />;
+  return <GuidePlayer projectId={canonicalGuideId(id)} />;
 }

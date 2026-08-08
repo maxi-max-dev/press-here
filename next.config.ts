@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
     ? {
         output: "export" as const,
         basePath: "/press-here",
+        trailingSlash: true,
         images: { unoptimized: true },
       }
     : {}),

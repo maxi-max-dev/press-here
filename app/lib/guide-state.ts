@@ -1,6 +1,13 @@
 const STORAGE_KEY = "press-here-workspace-v1";
 
-const ASSET_PREFIX = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+function normalizeBasePath(basePath: string): string {
+  const trimmed = basePath.trim().replace(/^\/+|\/+$/g, "");
+  return trimmed ? `/${trimmed}` : "";
+}
+
+const ASSET_PREFIX = normalizeBasePath(
+  process.env.NEXT_PUBLIC_BASE_PATH ?? "",
+);
 
 export type ProjectKind = "sample" | "custom";
 export type NoteKind = "none" | "tip" | "warning";
@@ -437,10 +444,17 @@ export function stagePointToImage(
   };
 }
 
-export function guidePath(projectId: string): string {
-  return `/guide/${encodeURIComponent(projectId)}`;
+export function guidePath(
+  projectId: string,
+  basePath = ASSET_PREFIX,
+): string {
+  return `${normalizeBasePath(basePath)}/guide/${encodeURIComponent(projectId)}`;
 }
 
-export function guideUrl(origin: string, projectId: string): string {
-  return `${origin.replace(/\/$/, "")}${guidePath(projectId)}`;
+export function guideUrl(
+  origin: string,
+  projectId: string,
+  basePath = ASSET_PREFIX,
+): string {
+  return `${origin.replace(/\/$/, "")}${guidePath(projectId, basePath)}`;
 }
