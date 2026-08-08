@@ -1,6 +1,21 @@
 1:"$Sreact.fragment"
-2:I[66813,["/press-here/_next/static/chunks/01xlw8hd842-c.js","/press-here/_next/static/chunks/0d3shmwh5_nmn.js","/press-here/_next/static/chunks/0eschdfjahbmy.js","/press-here/_next/static/chunks/0_~yaxe8f2gm-.js"],"Editor"]
-3:I[97367,["/press-here/_next/static/chunks/01xlw8hd842-c.js","/press-here/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+2:I[66813,["/press-here/_next/static/chunks/3fntmmi971322.js","/press-here/_next/static/chunks/15-qlmm5abv59.js","/press-here/_next/static/chunks/11_1m7ey29-xx.js"],"Editor"]
+3:I[97367,["/press-here/_next/static/chunks/3fntmmi971322.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{}],[["$","script","script-0",{"src":"/press-here/_next/static/chunks/0eschdfjahbmy.js","async":true}],["$","script","script-1",{"src":"/press-here/_next/static/chunks/0_~yaxe8f2gm-.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"jBwerst0t7T5dNnQTRIa1"}
+8:I[97367,["/press-here/_next/static/chunks/3fntmmi971322.js"],"ViewportBoundary"]
+9:I[97367,["/press-here/_next/static/chunks/3fntmmi971322.js"],"MetadataBoundary"]
+a:I[27201,["/press-here/_next/static/chunks/3fntmmi971322.js"],"IconMark"]
+c:I[39756,["/press-here/_next/static/chunks/3fntmmi971322.js"],"default"]
+d:I[37457,["/press-here/_next/static/chunks/3fntmmi971322.js"],"default"]
+e:I[22016,["/press-here/_next/static/chunks/3fntmmi971322.js","/press-here/_next/static/chunks/22i43cg4l4-dq.js"],""]
+:HL["/press-here/_next/static/chunks/01zwsgr87m4ai.css","style"]
+7:X
+0:{"buildId":"lnLZe-OiWfZOE9aBazgzh","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{}],[["$","script","script-0",{"src":"/press-here/_next/static/chunks/15-qlmm5abv59.js","async":true}],["$","script","script-1",{"src":"/press-here/_next/static/chunks/11_1m7ey29-xx.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$L8",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L9",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"按这里 / PRESS HERE"}],["$","meta","1",{"name":"description","content":"把设备照片和说明文字变成可扫码、可逐步执行的操作指南。"}],["$","meta","2",{"property":"og:title","content":"按这里 / PRESS HERE"}],["$","meta","3",{"property":"og:description","content":"把设备照片上的真实控件变成一步一屏的操作指南。"}],["$","meta","4",{"property":"og:image","content":"https://maxi-max-dev.github.io/press-here/og.png"}],["$","meta","5",{"property":"og:image:width","content":"1200"}],["$","meta","6",{"property":"og:image:height","content":"630"}],["$","meta","7",{"property":"og:image:alt","content":"按这里设备操作指南编辑器"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"按这里 / PRESS HERE"}],["$","meta","10",{"name":"twitter:description","content":"把设备照片上的真实控件变成一步一屏的操作指南。"}],["$","meta","11",{"name":"twitter:image","content":"https://maxi-max-dev.github.io/press-here/og.png"}],["$","link","12",{"rel":"shortcut icon","href":"https://maxi-max-dev.github.io/press-here/favicon.svg"}],["$","link","13",{"rel":"icon","href":"https://maxi-max-dev.github.io/press-here/favicon.svg"}],["$","$La","14",{}]]}]}]}],null]}],"isPartial":"$@b","staleTime":"$7","varyParams":null},{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/press-here/_next/static/chunks/01zwsgr87m4ai.css","precedence":"next"}],["$","script","script-0",{"src":"/press-here/_next/static/chunks/3fntmmi971322.js","async":true}]],["$","html",null,{"lang":"zh-CN","children":["$","body",null,{"children":["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}],"notFound":[["$","main",null,{"style":{"padding":"48px 24px","textAlign":"center"},"children":[["$","h1",null,{"style":{"fontSize":28,"marginBottom":12},"children":"没有找到这一页"}],["$","p",null,{"style":{"marginBottom":24},"children":"自定义指南保存在创建它的那台浏览器里，换设备打开会看不到。"}],["$","$Le",null,{"href":"/","children":"回到首页"}]]}],[]]}]}]}]]}],"isPartial":"$@f","staleTime":"$7","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@10","rootVaryParams":null,"needsRuntimeRequest":"$@11"}
 5:null
+7:300
+11:true
+7:C
+10:0
+b:"$undefined"
+f:"$undefined"
+6:"$undefined"
